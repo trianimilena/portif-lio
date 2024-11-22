@@ -31,7 +31,7 @@ margem esquerda: 7 % ;
     cor de fundo : # F0F8FF ;
     família de fontes : sans-serif;
     tamanho da fonte : 1 em ;
-    cor : # 59429d ;
+    cor : # 59429 ;
     margem esquerda : 36 % ;
     margem superior : 2 % ;
     justificar-conteúdo : centro;
@@ -40,7 +40,7 @@ margem esquerda: 7 % ;
 entrada , selecionar , textarea , botão {
     família de fontes : sans-serif;
     tamanho da fonte : 1 em ;
-    cor : # 000000 ;
+    cor : #000000 ;
     raio da borda : 5 px ;
     }
     
