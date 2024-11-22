@@ -73,8 +73,8 @@ entrada , selecionar , textarea , botão {
     
     /* Elementos de classe "campo" das tags <input> com atributo text e email, da tag
     <select> e da tag <textarea>*/
-    . campo input [ tipo = "texto" ] , . campo input [ tipo = "email" ] , . campo select , .
-    campo textarea {
+    .campo input [ tipo = "texto" ] , . campo input [ tipo = "email" ] , . campo select , .
+ campo textarea {
     preenchimento : 0,2 em ;
     borda : 1 px sólido # 59429d ;
     caixa - sombra : 2 px 2 px 2 px rgba ( 0 , 0 , 0.2 );
@@ -82,18 +82,18 @@ entrada , selecionar , textarea , botão {
     }
     
     /* Elementos de classe "campo" da tag <select> e <option>*/
-    . campo selecione a opção {
+    .campo selecione a opção {
     preenchimento-direito : 1 em ;
     }
     /* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com
 estado da pseudoclasse "focus"*/
-. campo input : foco , . campo select : foco , . campo textarea : foco {
+.campo input : foco , . campo select : foco , . campo textarea : foco {
     fundo : # E0E0F8 ;
     }
     
     /* Elemento de classe "botão" */
-    . botao {
-    tamanho da fonte : 1,2 em ;
+    .botao{
+    tamanho da fonte :1,2 em ;
     fundo : # 000000 ;
     borda : 0
     margem-inferior : 1 em ;
@@ -116,7 +116,7 @@ text-shadow : nenhum;
 }
 
 /* Elementos de classe botão e tag <select> */
-. botao , selecione {
-cursor : ponteiro;
+.botao , selecione {
+cursor:ponteiro;
 }
 
