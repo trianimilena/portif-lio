@@ -1,122 +1,30 @@
-/* Todos os elementos da página */
-* {
-margem : 0 ;
-preenchimento : 0 ;
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --cor-principal: #6E859F;
+    --cor-secundaria: #284260;
+    --cor-destaque: #C92BFC;
 }
 
-/* Elementos com o ID "título" */
-#título {
-família de fontes:sans-serif;
-cor: #000000;
-margem esquerda: 7 % ;
-}
-/* Elementos com o ID "subtítulo" */
-# legenda {
-    família de fontes : sans-serif;
-    cor : # FF69B4 ;
-    margem esquerda : 10 % ;
-    }
-    
-    # verificar {
-    exibição : bloco embutido;
-    }
-    
-    /* Elementos da tag <fieldset>*/
-    conjunto de campos {
-    borda : 0 ;
-    }
-    
-    /* Elemento de tag <body> */
-    corpo {
-    cor de fundo : # F0F8FF ;
-    família de fontes : sans-serif;
-    tamanho da fonte : 1 em ;
-    cor : # 59429 ;
-    margem esquerda : 36 % ;
-    margem superior : 2 % ;
-    justificar-conteúdo : centro;
-    }
-    /* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
-entrada , selecionar , textarea , botão {
-    família de fontes : sans-serif;
-    tamanho da fonte : 1 em ;
-    cor : #000000 ;
-    raio da borda : 5 px ;
-    }
-    
-    /* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
-    . grupo : antes , . grupo : depois {
-    exibição : tabela;
-    }
-    
-    /* Elementos de classe "grupo" no estado da pseudoclasse "after" */
-    . grupo : depois {
-    claro : ambos;
-    }
-    /* Elementos de classe "campo" */
-. campo {
-    margem-inferior : 1 em ;
-    }
-    
-    /* Elementos de classe "campo" da tag <label> */
-    . rótulo do campo {
-    margem inferior : 0,2 em ;
-    cor : # 000000 ;
-    exibir : bloco;
-    }
-    
-    /* Elementos de classe "campo" ou "grupo" da tag <fieldset> */
-    fieldset . grupo . campo {
-    flutuar : esquerda;
-    margem-direita : 1 em ;
-    }
-    
-    /* Elementos de classe "campo" das tags <input> com atributo text e email, da tag
-    <select> e da tag <textarea>*/
-    .campo input [ tipo = "texto" ] , . campo input [ tipo = "email" ] , . campo select , .
- campo textarea {
-    preenchimento : 0,2 em ;
-    borda : 1 px sólido # 59429d ;
-    caixa - sombra : 2 px 2 px 2 px rgba ( 0 , 0 , 0.2 );
-    exibir : bloco;
-    }
-    
-    /* Elementos de classe "campo" da tag <select> e <option>*/
-    .campo selecione a opção {
-    preenchimento-direito : 1 em ;
-    }
-    /* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com
-estado da pseudoclasse "focus"*/
-.campo input : foco , . campo select : foco , . campo textarea : foco {
-    fundo : # E0E0F8 ;
-    }
-    
-    /* Elemento de classe "botão" */
-    .botao{
-    tamanho da fonte :1,2 em ;
-    fundo : # 000000 ;
-    borda : 0
-    margem-inferior : 1 em ;
-cor : # ffffff ;
-preenchimento : 0,2 em 0,6 em ;
-caixa - sombra : 2 px 2 px 2 px rgba ( 0 , 0 , 0.2 );
-sombra de texto : 1 px 1 px 1 px rgba ( 0 , 0 , 0 , 0.5 );
-posição : absoluta;
-topo : 90 % ;
-esquerda : 50 % ;
-margem direita : -50 % ;
-transformar : traduzir ( -50 % , -50 % )
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(--cor-principal);
 }
 
-/* Elemento de classe "botão" com o estado da pseudoclasse "hover" */
-. botao : hover {
-fundo : # CCBBFF ;
-caixa-sombra : inserção 2 px 2 px 2 px rgba ( 0 , 0 , 0 , 0.2 );
-text-shadow : nenhum;
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
 }
 
-/* Elementos de classe botão e tag <select> */
-.botao , selecione {
-cursor:ponteiro;
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
 }
 
+a, .btn-link:hover {
+    color: var(--cor-principal)
+}
+
+a:hover{
+    color: var(--cor-destaque);
+}
