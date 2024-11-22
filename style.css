@@ -5,10 +5,10 @@ preenchimento : 0 ;
 }
 
 /* Elementos com o ID "título" */
-# título {
-família de fontes : sans-serif;
-cor : # 000000 ;
-margem esquerda : 7 % ;
+#título {
+família de fontes:sans-serif;
+cor: #000000;
+margem esquerda: 7 % ;
 }
 /* Elementos com o ID "subtítulo" */
 # legenda {
